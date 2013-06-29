@@ -1,0 +1,105 @@
+/* 
+    Document   : main
+    Created on : May 23, 2013, 11:58:11 AM
+    Author     : abhinav
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+
+    background: url("../images/clean1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 30px;   
+
+}
+#header{
+    padding: 20px 40px;
+    text-align: left;
+    display: block;
+    font-family: "FF Meta Serif Web Pro",sans-serif,serif;
+    font-weight: bold;   
+    color:#404f15;
+    border-radius: 30px;
+
+}
+
+.row-fluid{
+    margin-bottom: 100px;
+}
+
+
+
+#form2{
+    padding: 30px;
+    border: 5px solid greenyellow;
+    margin: 60px 150px;
+    position: relative;
+    height: auto;
+}
+
+#form-horizontal{
+    position: absolute;
+    left:0;
+}
+#form3{
+    padding: 30px;
+    border: 5px solid greenyellow;
+    margin: 60px 150px;
+    position: relative;
+    height: auto;
+    display: none;
+}
+#Address{
+    display:inline;
+    float:left;
+    position: absolute;
+
+}
+.navbar .btn{
+
+    margin-right:25px;
+}
+#reg {
+
+    border-radius: 3px;
+    padding-bottom: 2em;
+    background: inherit;
+    width: 530px;
+    position: relative;
+    top: 2em;
+    float: left;
+    padding-top: 2em;
+}
+#reg #login {
+    height: 36px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#facebook{
+    background: url("../images/login-fb.png")
+
+}
+
+#reg #login a {
+    width: 199px;
+    height: 36px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-indent: 50px;
+    font-size: .9em;
+    line-height: 2.6em;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+
+}
